@@ -1,0 +1,48 @@
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	  android:background="@drawable/fondo_options">
+	<TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+
+		<TextView
+		    android:id="@+id/labelSonido"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:paddingLeft="45dip"
+		    android:paddingTop="70dip"
+		    android:text="@string/sonidoMenu"
+		    android:textAppearance="?android:attr/textAppearanceLarge"
+		    android:width="260dip" />
+
+		<CheckBox android:layout_width="wrap_content" android:id="@+id/checkBoxSonido"
+			android:layout_height="wrap_content" android:checked="true"></CheckBox>
+	</TableRow>
+	<TableRow android:id="@+id/tableRow2" android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		<TextView 
+		    android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:paddingLeft="45dip"
+			android:paddingTop="15dip" 
+			android:id="@+id/labelVibracion"
+			android:text="@string/vibracionMenu"></TextView>
+		<CheckBox android:layout_width="wrap_content" android:id="@+id/checkBoxVibracion"
+			android:layout_height="wrap_content" android:checked="true"></CheckBox>
+	</TableRow>
+	<TableRow android:id="@+id/tableRow3" android:layout_width="wrap_content"
+		android:layout_height="wrap_content">
+		<TextView 
+		    android:textAppearance="?android:attr/textAppearanceLarge"
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content"
+			android:paddingLeft="45dip"
+			android:paddingTop="15dip" 
+			android:id="@+id/labelcontrol"
+			android:text="@string/cotrolMenu"></TextView>
+		<CheckBox android:layout_width="wrap_content" android:id="@+id/checkBoxcontrol"
+			android:layout_height="wrap_content" android:checked="true"></CheckBox>
+	</TableRow>
+</TableLayout>
